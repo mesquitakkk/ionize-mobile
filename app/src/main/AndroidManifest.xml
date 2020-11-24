@@ -10,14 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ionizemobile">
-
+        <activity
+            android:name=".MainPage"
+            android:theme="@style/Theme.Ionizemobile"/>
         <activity
             android:name=".Register"
             android:theme="@style/Theme.Nobar" />
         <activity
             android:name=".Login"
-            android:theme="@style/Theme.Nobar"/>
-        <activity android:name=".MainActivity" android:theme="@style/Theme.Nobar">
+            android:theme="@style/Theme.Nobar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Nobar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
